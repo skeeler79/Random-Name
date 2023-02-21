@@ -2,14 +2,25 @@
 
 import React, { Component } from "react";
 import Name from "./Name";
+import {mathAll} from "./data";
 
 class Randomizer extends Component {
     constructor(props){
         super(props);
-        this.state = {name: 'Random Name'}
+        this.state = {name: 'John Doe'}
     }
-  render() {
+  
+  chooseName(){
 
+  }
+    render() {
+        // const Names = () => {
+        //     mathAll.map((data, key)=>{
+        //         console.log (`${data.firstName} ${data.lastName}`)
+                  
+                
+        //     });
+        // }
 
     return (
       <div className="Randomizer">

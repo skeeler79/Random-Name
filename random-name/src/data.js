@@ -1,6 +1,6 @@
 //object with names
 
-const mathAll = [
+export const mathAll = [
   {
     id: 1,
     firstName: "Robert",
@@ -285,3 +285,4 @@ const mathAll = [
     period6: true,
   },
 ];
+
